@@ -26,6 +26,10 @@ img{
     max-width: 100%;
     height: auto;
 }
+.logo{
+    max-width: 100% !important;
+    height: auto;
+}
 .hide {
     display: none !important;
 }
@@ -340,8 +344,7 @@ a,a:hover,a:focus,a:visited{
 }
 /* header css start */ 
 .as_header_wrapper {
-    /* background-color: rgb(17 16 17); */
-    background-color: rgb(221 211 221);
+    background-color: rgb(229 226 229);
     position: fixed;
     top:0;
     left: 0;
@@ -1006,16 +1009,16 @@ a,a:hover,a:focus,a:visited{
     margin: -1px 0 0 5px;
 }
 .as_service_box:hover .as_link span svg {
-    /* fill: #ffffff; */
+    fill: #ffffff;
 }
 
 .as_service_box .as_link span svg, .as_service_box .as_link span {
     transition: none !important;
     fill:var(--primary-color);
 }
-.as_service_box:hover .as_subheading,.as_service_box:hover p,.as_service_box:hover .as_link{
+/* .as_service_box:hover .as_subheading,.as_service_box:hover p,.as_service_box:hover .as_link{
     color: #ffffff;
-}
+} */
 .as_service_box:hover .as_link svg{
     fill:#ffffff;
 }
@@ -1160,7 +1163,7 @@ a,a:hover,a:focus,a:visited{
     background-image: -ms-linear-gradient( 0deg, rgb(244,170,54) 0%, rgb(243,115,53) 100%);
     padding: 54px 50px;
     position: relative;
-    color: #ffffff;
+    /* color: #ffffff; */
     z-index: 1;
     position: relative;
 }
@@ -1904,7 +1907,7 @@ section.as_pricing_plan .row {
     color: #ffffff;
 }
 .as_pricing_box:hover .as_pric_icon svg {
-    /* fill: #ffffff; */
+    fill: #ffffff;
 } 
 .as_pricing_box:hover ul li{
     color:#ffffff !important;
@@ -3613,7 +3616,7 @@ form.d_block {
         height: auto;
     }
     .as_header_wrapper {
-        /* background-color: rgb(17 16 17); */
+        background-color: rgb(229 226 229);
     }
     .as_logo {
         align-items: center;

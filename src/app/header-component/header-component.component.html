@@ -30,7 +30,7 @@
                             </a>
                         </li>
                     </ul>
-                </div> 
+                </div>
                 <div class="col-lg-6">
                     <div class="as_right_info">
                         <div class="as_search_wrapper">
@@ -57,8 +57,8 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                 <div class="as_logo">
-                    <a href="javascript:void(0)">
-                        <img class="logo" src="assets/images/mahaveerastoworld.png"  alt="">
+                    <a href="{{'/'}}">
+                        <img class="logo" src="assets/images/brand.png" alt="">
                     </a>
                 </div>
             </div>
@@ -70,86 +70,14 @@
                         </span>
                         <div class="as_menu">
                             <ul>
-                                <li><a href="javascript:void(0)" class="active">home</a></li>
-                                <li><span class="as_infoicon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="17" height="17" viewBox="0 0 17 17" style="&#10;">
-                                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAkFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAACWvj/iAAAALnRSTlMAs+Z9A8OHq1DyTbvnW1I94To8yZWCSMyETosK4MVR8Y0V3IYNlLpJ0QVasu2nQJZtCAAAAAFiS0dEAIgFHUgAAAAJcEhZcwAALiMAAC4jAXilP3YAAACASURBVBjTXc7ZEoIwDAXQsKiIooiKG3VBwZX7/59HIFPael+SnpkkJSLPD8hOOAIwtmUC/BEkkZGpSGxk1r3niTW16GTpHEtZVo5kLGtHaMO07btc798x7bkegKPIqWBS5+jC5Sp0KzHkLvRQhvT6SkM9XHy+elBv6xefr/9riFp+ORMcFJRCjQAAAABJRU5ErkJggg==" width="17" height="17"/>
-                                      </svg>
-                                </span>
-                                + (91) 94393 66064</li>
-                            <li><span class="as_infoicon">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="18" height="13" viewBox="0 0 18 13">
-                                    <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAANCAMAAACTkM4rAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAllBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAADAm+O6AAAAMHRSTlMAnPKljr/GhqKttZn1jLe+g/bxiLvDfn07z9cuDFuRD7MXFoq9k66LrKSjlo+U852fXjOJAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAIZJREFUCNdNj0kSgkAQBFMccUNFcFfABRX3+v/rHCB0qENFRx4qsqElrxG1wdBRIz5d1KPvyIChCDRi/CMTQk2JpJhZTeYspAjPnmG957O07VVIK9bShq3+yOwSTEqSxRWyWyl7pYfjSTlxuRXozMU5XBWggpvzKriLh7Mqk/OEl97NHz98AaD8G1UEUcOeAAAAAElFTkSuQmCC" width="18" height="13"/>
-                                  </svg>
-                                  
-                            </span>
-                        mahaveerastroworld@gmail.com</li>
-                                <!-- <li><a href="about.html">about us</a></li>
-                                <li><a href="javascript:;">pages</a>
-                                    <ul class="as_submenu">
-                                        <li><a href="service.html">service</a></li>
-                                        <li><a href="service_single.html">service single</a></li>
-                                        <li><a href="appointments.html">appointment</a></li>
-                                        <li><a href="pricing.html">pricing plans</a></li>
-                                        <li><a href="error.html">404</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="javascript:;">shop</a>
-                                    <ul class="as_submenu">
-                                        <li><a href="shop.html">Shop</a></li>
-                                        <li><a href="shop_single.html">Shop Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="javascript:;">blog</a>
-                                    <ul class="as_submenu">
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="blog_single.html">blog single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">contact</a></li> -->
+                                <li><a routerLink="/" [class.active]="activePage === 'home'">home</a></li>
+<li><a routerLink="/about" [class.active]="activePage === 'about'">about us</a></li>
+<li><a routerLink="/service" [class.active]="activePage === 'service'">Services</a></li>
+<li><a routerLink="/contact" [class.active]="activePage === 'contact'">contact</a></li>
                             </ul>
                         </div>
                     </div>
-                    <!-- <a href="javascript:;" class="as_wishlist"><img src="assets/images/svg/wishlist.svg" alt=""></a> -->
-                    <!-- <div class="as_cart">
-                        <div class="as_cart_wrapper">
-                            <span><img src="assets/images/svg/cart.svg" alt=""><span class="as_cartnumber">02</span></span>
-                        </div>
-
-                        <div class="as_cart_box">
-                            <div class="as_cart_list">
-                                <ul>
-                                    <li>
-                                        <div class="as_cart_img">
-                                            <img src="assets/images/p1.jpg" class="img-responsive">
-                                        </div>
-                                        <div class="as_cart_info">
-                                            <a href="#">Yellow Sapphire</a>
-                                            <p>1 X $20.00</p>
-                                            <a href="javascript:;" class="as_cart_remove"><i class="fa fa-trash"></i></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="as_cart_img">
-                                            <img src="assets/images/p2.jpg" class="img-responsive">
-                                        </div>
-                                        <div class="as_cart_info">
-                                            <a href="#">yantra</a>
-                                            <p>1 X $10.00</p>
-                                            <a href="javascript:;" class="as_cart_remove"><i class="fa fa-trash"></i></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="as_cart_total">
-                                <p>total<span>$30.00</span></p>
-                            </div>
-                            <div class="as_cart_btn">
-                                <button type="button" class="as_btn">view cart</button>
-                                <button type="button" class="as_btn">checkout</button>
-                            </div>
-                        </div>
-                    </div> -->
+                    
                 </div>
             </div>
         </div>

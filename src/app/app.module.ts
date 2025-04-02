@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { FooterComponentComponent } from './footer-component/footer-component.component';
+import { ContactComponetComponent } from './contact-componet/contact-componet.component';
+import { ServiceComponentComponent } from './service-component/service-component.component';
+import { AboutComponentComponent } from './about-component/about-component.component';
+
 
 
 @NgModule({
@@ -13,7 +17,10 @@ import { FooterComponentComponent } from './footer-component/footer-component.co
     AppComponent,
     HomeComponentComponent,
     HeaderComponentComponent,
-    FooterComponentComponent
+    FooterComponentComponent,
+    ContactComponetComponent,
+    ServiceComponentComponent,
+    AboutComponentComponent
   ],
   imports: [
     BrowserModule,
